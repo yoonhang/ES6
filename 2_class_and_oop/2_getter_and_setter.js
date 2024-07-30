@@ -25,12 +25,12 @@ class IdolModel{
 
 const yuJin = new IdolModel('안유진', 2003);
 console.log(yuJin);
-console.log(yuJin.nameAndYear);
+console.log(yuJin.nameAndYear);                 ///////////////////////////////// () 넣으면 안됨...함수가 아니다. 
 
 yuJin.setName = '장원영';
 console.log(yuJin);
 
-class IdolModel2{
+class IdolModel2{                               ////////////////////////// # private -> get 으로 불러올수 있음. ES7 모델...
     #name;
     year;
 

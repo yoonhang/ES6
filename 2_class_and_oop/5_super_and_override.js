@@ -25,7 +25,7 @@ class FemaleIdolModel extends IdolModel{
     }
 
     sayHello(){
-        // return `안녕하세요 ${this.name}입니다. ${this.part}를 맡고있습니다.`;
+        // return `안녕하세요 ${this.name}입니다. ${this.part}를 맡고있습니다.`;        ////////////////////////////// 주의 super 안됨.
         return `${super.sayHello()} ${this.part}를 맡고있습니다.`;
     }
 }

@@ -25,7 +25,7 @@ class IdolModel{
 console.log(new IdolModel('안유진', 2003));
 
 // 생성자 함수
-function IdolFunction(name, year){
+function IdolFunction(name, year){                  //this 가 있어야만 new 로 선언가능
     this.name = name;
     this.year = year;
 }

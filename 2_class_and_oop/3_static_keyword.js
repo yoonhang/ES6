@@ -34,7 +34,7 @@ class IdolModel{
         this.year = year;
     }
 
-    static fromObject(object){
+    static fromObject(object){                              //////////////////////// factory 형
         return new IdolModel(
             object.name,
             object.year,

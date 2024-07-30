@@ -23,7 +23,7 @@ console.log(iveMembers);
 
 console.log('---------------_');
 // shift()
-console.log(iveMembers.shift());
+console.log(iveMembers.shift());                    ////////////////////////////////////////my
 console.log(iveMembers);
 
 // unshift()
@@ -79,7 +79,7 @@ console.log([
 
 // join()
 console.log(iveMembers.join());
-console.log(iveMembers.join('/'));
+console.log(iveMembers.join('/'));              //////////////////////////////////////////////my
 console.log(iveMembers.join(', '));
 
 // sort()
@@ -103,7 +103,7 @@ console.log(numbers);
 // 2) a를 b 보다 먼저 정렬하려면 (앞에두려면) 0보다 작은 숫자를 반환
 // 3) 원래 순서를 그대로 두려면 0을 반환
 numbers.sort((a, b) => {
-    return a > b ? 1 : -1;
+    return a > b ? 1 : -1;                              //////////////////////////////////////my
 });
 console.log(numbers);
 
@@ -127,7 +127,7 @@ console.log(iveMembers);
 // filter()
 numbers = [1, 8, 7, 6, 3];
 
-console.log(numbers.filter((x) => x % 2 === 0));
+console.log(numbers.filter((x) => x % 2 === 0));                //////////////////////////////////////my 
 
 // find()
 console.log(numbers.find((x) => x % 2 === 0));
@@ -136,7 +136,7 @@ console.log(numbers.find((x) => x % 2 === 0));
 console.log(numbers.findIndex((x) => x % 2 === 0));
 
 // reduce()
-console.log(numbers.reduce((p, n) => p + n, 0));
+console.log(numbers.reduce((p, n) => p + n, 0));                /////////////////////////////////////////my
 
 // reduce() 퀴즈
 // reduce() 함수를 사용해서 iveMembers 변수에 있는 모든 스트링 값들의

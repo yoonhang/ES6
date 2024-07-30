@@ -28,7 +28,7 @@ const groupKey = 'group';
 const groupValue = '아이브';
 
 const yuJin2 = {
-    [nameKey]: nameValue,
+    [nameKey]: nameValue,           ///////////////////////////////////////////////////////
     [groupKey]: groupValue,
     dance: function(){
         return `${this.name}이 춤을 춥니다.`;
